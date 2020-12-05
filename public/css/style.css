@@ -1,6 +1,6 @@
 body {
     color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Aria;
     margin: 00 auto;
     max-width: 650px;
     padding: 0 16px;
@@ -17,6 +17,7 @@ footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
+    padding-left: 450px;
 }
 
 header {
@@ -24,8 +25,31 @@ header {
     margin-bottom: 16px;
 }
 
+.links {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+a {
+    padding: 15px;
+    color: #fff;
+    font-size: 22px;
+    font-family: aria;
+}
+
+a:hover {
+    color: #333333;
+    background-color: #fff;
+    border: 1.5px solid #444444;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 h1 {
-    font-size: 64px;
+    font-size: 50px;
     margin-bottom: 16px;
 }
 
@@ -33,6 +57,11 @@ header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .portrait {
